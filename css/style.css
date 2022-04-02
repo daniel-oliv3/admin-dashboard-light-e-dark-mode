@@ -55,6 +55,13 @@ body {
     overflow-x: hidden;
 }
 
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    grid-template-columns: 14rem auto 23rem;
+}
+
 a {
     color: var(--color-dark);
 }
@@ -101,6 +108,65 @@ small {
 .text-muted {
     color: var(--color-info-dark);
 }
+
+.p {
+    color: var(--color-dark-variant);
+}
+
+.b {
+    color: var(--color-dark);
+}
+
+.primary {
+    color: var(--color-primary);
+}
+
+.danger {
+    color: var(--color-danger);
+}
+
+.success {
+    color: var(--color-success);
+}
+
+.warning {
+    color: var(--color-warning);
+}
+
+aside {
+    height: 100vh;
+}
+
+aside .top {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
+aside .logo {
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+}
+
+aside .logo img {
+    width: 2rem;
+    height: 2rem;
+}
+
+aside .close {
+    display: none;
+}
+
+
+
+
+
+
+
+
 
 
 
