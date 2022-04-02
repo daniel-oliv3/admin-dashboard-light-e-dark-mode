@@ -98,6 +98,16 @@ small {
     overflow: hidden;
 }
 
+.text-muted {
+    color: var(--color-info-dark);
+}
+
+
+
+
+
+
+
 
 
 
