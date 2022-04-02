@@ -161,7 +161,19 @@ aside .close {
 }
 
 
+/* ======= Sidebar/Barra Lateral =======*/
+aside .sidebar {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+}
 
+aside h3 {
+    font-weight: 500;
+}
 
 
 
