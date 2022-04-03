@@ -163,7 +163,6 @@ aside .close {
 
 /* ======= Sidebar/Barra Lateral =======*/
 aside .sidebar {
-    background: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
@@ -223,7 +222,13 @@ aside .sidebar a:hover span {
     margin-left: 1rem;
 }
 
-
+aside .sidebar .message-count {
+    background: var(--color-danger);
+    color: var(--color-white);
+    padding: 2px 10px;
+    font-size: 11px;
+    border-radius: var(--border-radius-1);
+}
 
 
 
